@@ -20,3 +20,9 @@
  ```
  namespace OutbackGames.SimpleTools.GameManagement
  ```
+
+
+Custom Global Scripting Defines:
+```
+USING_OUTBACKGAMES_GMANAGER // Required for GameManager. See their respective README files for more info.
+USING_OUTBACKGAMES_VR // Required for VR Tools. See their respective README files for more info.
