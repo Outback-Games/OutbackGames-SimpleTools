@@ -38,6 +38,7 @@ namespace OutbackGames.SimpleTools.VR
             while(frameCounter < framesToWait)
             {
                 yield return null;
+                frameCounter++;
             }
             SetSpectatorCameraObject();
         }
