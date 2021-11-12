@@ -19,7 +19,7 @@ namespace OutbackGames.SimpleTools.GameManagement
 
 #if USING_OUTBACKGAMES_VR
         [Space(8f)]
-        [Header("Spectator Camera Settings")]
+		[Header("Spectator Camera Settings")]
 		[SerializeField] bool useSpectatorCam = false;
         [SerializeField] Camera spectatorCamera;
         [SerializeField, Tooltip("The Layers for the Spectator Cam to Render")] LayerMask specCamCullLayers;
