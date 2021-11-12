@@ -19,8 +19,8 @@ namespace OutbackGames.SimpleTools.GameManagement
 
 #if USING_OUTBACKGAMES_VR
         [Space(8f)]
-		[Header("Spectator Camera Settings")]
-		[SerializeField] bool useSpectatorCam = false;
+        [Header("Spectator Camera Settings")]
+        [SerializeField] bool useSpectatorCam = false;
         [SerializeField] Camera spectatorCamera;
         [SerializeField, Tooltip("The Layers for the Spectator Cam to Render")] LayerMask specCamCullLayers;
         [SerializeField, Tooltip("This is used to determine the 'depth' aka 'render order' of the Spectator Cam.")] int specCamRenderOrder;
@@ -50,7 +50,7 @@ namespace OutbackGames.SimpleTools.GameManagement
         /// </summary>
         void InitializeVROptions()
         {
-            if(useSpectatorCam) SpectatorCameraManager.InitializeSpectatorCam(spectatorCamera, specCamCullLayers, specCamMonitor, specCamRenderOrder);
+            if (useSpectatorCam) SpectatorCameraManager.InitializeSpectatorCam(spectatorCamera, specCamCullLayers, specCamMonitor, specCamRenderOrder);
         }
 
         /// <summary>
