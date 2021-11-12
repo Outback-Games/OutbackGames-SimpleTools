@@ -61,6 +61,7 @@ namespace OutbackGames.SimpleTools.VR
         // Primarily, to use this, it's just quicker and easier for a game jam style project or if you just don't want to get too complicated.
         public static void DeInitializeSpectatorCam()
         {
+			if (!isSpecCamInitialized) { return; }
             if (spectatorCamera != null) { spectatorCamera.enabled = false; return; }
             spectatorCamera = null;
             isSpecCamInitialized = false;
