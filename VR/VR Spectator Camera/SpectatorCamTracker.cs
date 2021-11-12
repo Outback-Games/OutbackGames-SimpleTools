@@ -71,6 +71,9 @@ namespace OutbackGames.SimpleTools.VR
                 transform.position,
                 trackerSpeed * Time.deltaTime
                 );
+
+            //TODO: add optional offset vector for position
+            //TODO: add slerp for quaternion rotation matching.
         }
     }
 
