@@ -1,3 +1,10 @@
+/*
+ * =======================================================
+ * | Created by 'Outback Games' 12-NOV-2021 @ 17:09 ACST |
+ * | Covered by the MIT License, Open Source Software.   |
+ * | No warranties or guarantees provided.               |
+ * =======================================================
+ */
 #if USING_OUTBACKGAMES_GMANAGER
 using System.Collections;
 using System.Collections.Generic;
