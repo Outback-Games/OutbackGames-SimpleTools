@@ -10,3 +10,13 @@
  ```
  namespace OutbackGames.SimpleTools.SimpleSave
  ```
+ 
+ VR Tools:
+ ```
+ namespace OutbackGames.SimpleTools.VR
+ ```
+ 
+ Game Management:
+ ```
+ namespace OutbackGames.SimpleTools.GameManagement
+ ```
