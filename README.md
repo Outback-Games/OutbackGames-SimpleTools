@@ -4,7 +4,7 @@
  The Root Namespace for SimpleTools is:
  ```namespace OutbackGames.SimpleTools```
  
- To access tools when imported the following namespaces are required:
+ To access tools when imported, the following namespaces are required:
  
  SimpleSaver:
  ```
