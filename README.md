@@ -1,5 +1,5 @@
 # OutbackGames-SimpleTools
- A collection of simple tools available for free use under the MIT license
+ A collection of simple tools (primarily for the Unity Game Engine) available for free use under the MIT license
  
  The Root Namespace for SimpleTools is:
  ```namespace OutbackGames.SimpleTools```
